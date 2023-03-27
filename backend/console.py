@@ -5,4 +5,7 @@ from api.models.drink import Drink
 from api.models.order import Order
 from api.models.customer import Customer
 
-import pandas as pd
+# import pandas as pd
+
+bartenders = find_all(Bartender, cursor)
+orders = find_all(Order, cursor)
